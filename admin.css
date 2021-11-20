@@ -1,0 +1,47 @@
+.nav-link:hover {
+    background-color: grey;
+}
+.display-4 {
+    font-weight: bold;
+}
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 4px;
+    opacity: 0,4;
+    font-size: 90px;
+}
+
+.banner {
+    background: center / contain no-repeat url("https://img.inews.co.id/media/822/files/inews_new/2019/07/22/ui_ist.jpg");
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: black;
+
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #FFF;
+    background-color: #dc3545;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.kontak {
+    background: #6495ED center / contain no-repeat;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #FFF;
+}
+

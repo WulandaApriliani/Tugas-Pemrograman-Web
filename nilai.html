@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="admin.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SELAMAT DATANG ADMIN | <b>UNIVERSITAS PEMBANGUNAN PANCA BUDI</b></a>
+            <form class="d-flex ml-auto">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+            <div class="icon ml - 4">
+                <h5>
+                    <i class="fas fa-envelope mr-3" data-toggle="tooltip" title="Surat Masuk"></i>
+                    <i class="fas fa-bell mr-15" data-toggle="tooltip" title="Notifikasi"></i>
+                    <i class="fas fa-sign-out-alt mr-3" data-toggle="tooltip" title="Sign Out"></i>
+                </h5>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row no-gutters mt-5">
+          <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
+            <ul class="nav flex-column ml-3 mb-5">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="dashboard.html"><i class="fas fa-columns"></i> Dashboard</a><hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="mahasiswa.html"><i class="fas fa-user-graduate"></i> Daftar Mahasiswa</a><hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="dosen.html"><i class="fas fa-chalkboard-teacher"></i> Daftar Dosen</a><hr class="bg-secondary">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="pegawai.html"><i class="fas fa-user-edit"></i> Daftar Pegawai</a><hr class="bg-secondary">
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="jadwal.html"><i class="fas fa-calendar-alt"></i> Jadwal Kuliah</a><hr class="bg-secondary">
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="nilai.html"><i class="fas fa-paper-plane"></i> Nilai Mahasiswa</a><hr class="bg-secondary">
+                  </li>
+              </ul>
+          </div>
+          <div class="col-md-10 p-5 pt-5">
+            <h3><i class="fas fa-paper-plane"></i> NILAI MAHASISWA</h3><hr>
+            
+            <a href="" class="btn btn-primary mb-3"><i class="fas fa-plus-square mr-2"></i>TAMBAH DATA NILAI MAHASISWA</a>
+            <table class="table table-striped table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">NO</th>
+                  <th scope="col">Nama Mahasiswa</th>
+                  <th scope="col">Mata Kuliah</th>
+                  <th scope="col">Kode MK</th>
+                  <th scope="col">Nilai Akhir</th>
+                  <th colspan="3" scope="col">AKSI</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Amanda</td>
+                  <td>Pemrograman Web</td>
+                  <td>PW-0123</td>
+                  <td>90</td>
+                  <td><a href="" class="btn btn-primary p-2">Detail</a></td>
+                  <td><i class="fas fa-edit bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                  <td><i class="fas fa-trash-alt bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+                </tr>
+
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Amanda</td>
+                  <td>2018370112</td>
+                  <td>Langkat, 21 Mei 2001</td>
+                  <td>Langkat, SUMATRA UTARA</td>
+                  <td><a href="" class="btn btn-primary p-2">Detail</a></td>
+                  <td><i class="fas fa-edit bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                  <td><i class="fas fa-trash-alt bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+                </tr>
+
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Amanda</td>
+                  <td>2018370112</td>
+                  <td>Langkat, 21 Mei 2001</td>
+                  <td>Langkat, SUMATRA UTARA</td>
+                  <td><a href="" class="btn btn-primary p-2">Detail</a></td>
+                  <td><i class="fas fa-edit bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                  <td><i class="fas fa-trash-alt bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+                </tr>
+
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Amanda</td>
+                  <td>2018370112</td>
+                  <td>Langkat, 21 Mei 2001</td>
+                  <td>Langkat, SUMATRA UTARA</td>
+                  <td><a href="" class="btn btn-primary p-2">Detail</a></td>
+                  <td><i class="fas fa-edit bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+                  <td><i class="fas fa-trash-alt bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+                </tr>
+                
+              </tbody>
+            </table>
+
+          </div>
+      </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/JavaScript" src="admin.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
