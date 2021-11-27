@@ -1,0 +1,37 @@
+.nav-link:hover {
+    background-color: grey;
+}
+
+.banner {
+    background: center / contain no-repeat url("https://asset.kompas.com/crops/-JUYLgIvW8AA8F_5MbdrBCrm2DE=/0x0:600x400/750x500/data/photo/2020/09/21/5f67f2bb5b799.jpg");
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: black;
+    }
+
+    footer {
+        padding: 50px 0px 50px 0px;
+        background-color: #343a40;
+        margin-top: 40px;
+        color: #fff;
+    }
+    footer .layar-dalam {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer .layar-dalam div {
+        width: 30%;
+        height: 10%;
+    }
+    footer .layar-dalam h2 {
+        margin-top: 0px;
+        margin-left: 10%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    footer .layar-dalam p {
+        margin-left: 10%;
+    }
+    
