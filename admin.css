@@ -75,3 +75,11 @@ footer .layar-dalam h2 {
 footer .layar-dalam p {
     margin-left: 10%;
 }
+
+.social-icon ul i {
+    color: #55606a;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0;
+}

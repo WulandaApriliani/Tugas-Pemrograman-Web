@@ -3,7 +3,7 @@
 }
 
 .banner {
-    background: center / contain no-repeat url("https://pelayananpublik.id/wp-content/uploads/2020/09/unpab.jpg");
+    background: center / contain no-repeat url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdNchmOYVD6vBG75luyq3K-kMFAT3dk0yBBQ&usqp=CAU");
     background-size: cover;
     padding-top: 15%;
     padding-bottom: 15%;
@@ -33,4 +33,12 @@ footer .layar-dalam h2 {
 }
 footer .layar-dalam p {
     margin-left: 10%;
+}
+
+.social-icon ul i {
+    color: #55606a;
+    display: inline-block;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0;
 }
