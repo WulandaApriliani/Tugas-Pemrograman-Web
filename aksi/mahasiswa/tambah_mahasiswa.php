@@ -4,13 +4,13 @@ require_once '../koneksi.php';
 
 $nama = $_POST['nama_lengkap'];
 $email = $_POST['email'];
-$alamat = $_POST['alamat'];
 $jurusan = $_POST['jurusan'];
-$nidn = $_POST['npm'];
+$npm = $_POST['npm'];
 $jenis_kelamin = $_POST['jenis_kelamin'];
 $no_hp = $_POST['no_hp'];
+$alamat = $_POST['alamat'];
 
-$perintah = "INSERT INTO `tb_mahasiswa` (`id`, `nama_lengkap`, `email`, `jurusan`, `alamat`, `npm`, `jenis_kelamin`, `no_hp`) VALUES (NULL, '$nama', '$email', '$alamat', '$jurusan', '$npm', '$jenis_kelamin', '$no_hp')";
+$perintah = "INSERT INTO `tb_mahasiswa` (`id`, `nama_lengkap`, `email`, `jurusan`, `npm`, `jenis_kelamin`, `no_hp`, `alamat`) VALUES (NULL, '$nama', '$email', '$jurusan', '$npm', '$jenis_kelamin', '$no_hp', '$alamat')";
 
 if ($conn->query($perintah) === TRUE) {
     header("location: ../../mahasiswa.php");

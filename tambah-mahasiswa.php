@@ -22,16 +22,12 @@
                     <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
                 </div>
                 <div class="mb-3">
-                    <label for="alamat" class="form-label">Address</label>
-                    <textarea class="form-control" id="alamat" rows="3" placeholder="Enter Address" name="alamat"></textarea>
-                </div>
-                <div class="mb-3">
                     <label for="jurusan" class="form-label">Jurusan</label>
                     <textarea class="form-control" id="jurusan" rows="3" placeholder="Enter Jurusan" name="jurusan"></textarea>
                 </div>
                 <div class="mb-3">
-                    <label for="nidn" class="form-label">Nidn</label>
-                    <textarea class="form-control" id="nidn" rows="3" placeholder="Enter Nidn" name="nidn"></textarea>
+                    <label for="npm" class="form-label">Npm</label>
+                    <textarea class="form-control" id="npm" rows="3" placeholder="Enter NPM" name="npm"></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="jenis_kelamin" class="form-label">Jenis Kelamin</label>
@@ -40,6 +36,10 @@
                 <div class="mb-3">
                     <label for="no_hp" class="form-label">No Hp</label>
                     <textarea class="form-control" id="no_hp" rows="3" placeholder="Enter No_hp" name="no_hp"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="alamat" class="form-label">Address</label>
+                    <textarea class="form-control" id="alamat" rows="3" placeholder="Enter Address" name="alamat"></textarea>
                 </div>
                 <button class="btn btn-primary" type="submit">Tambah Data</button>
             </form>
