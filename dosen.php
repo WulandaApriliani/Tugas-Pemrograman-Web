@@ -83,8 +83,8 @@ if (!isset($_SESSION['username'])) {
               <th scope="col">NO</th>
               <th scope="col">NAMA DOSEN</th>
               <th scope="col">EMAIL</th>
-              <th scope="col">ALAMAT</th>
               <th scope="col">JURUSAN</th>
+              <th scope="col">ALAMAT</th>
               <th scope="col">NIDN</th>
               <th scope="col">JENIS KELAMIN</th>
               <th scope="col">NOMOR HEADPHONE</th>
