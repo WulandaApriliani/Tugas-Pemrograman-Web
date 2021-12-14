@@ -31,7 +31,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="jurusan" class="form-label">Jurusan</label>
-                    <textarea class="form-control" id="jurusan" rows="3" placeholder="Enter jurusan" name="jurusan"></textarea>
+                    <textarea class="form-control" id="jurusan" placeholder="Enter jurusan" name="jurusan"></textarea>
                 </div>
                 <button class="btn btn-primary" type="submit">Tambah Data</button>
             </form>
