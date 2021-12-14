@@ -35,7 +35,7 @@
                             <textarea class="form-control" id="jurusan" rows="3" placeholder="Enter Jurusan" name="jurusan"><?= $row['jurusan']; ?></textarea>
                         </div>
                         <div class="mb-3">
-                            <label for="nidn" class="form-label">Npm</label>
+                            <label for="npm" class="form-label">Npm</label>
                             <textarea class="form-control" id="npm" rows="3" placeholder="Enter Npm" name="npm"><?= $row['npm']; ?></textarea>
                         </div>
                         <div class="mb-3">

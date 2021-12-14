@@ -21,16 +21,16 @@
                     <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
                 </div>
                 <div class="mb-3">
-                    <label for="alamat" class="form-label">Address</label>
-                    <textarea class="form-control" id="alamat" rows="3" placeholder="Enter Address" name="alamat"></textarea>
-                </div>
-                <div class="mb-3">
                     <label for="tempat_tanggal_lahir" class="form-label">Tempat Tanggal Lahir</label>
                     <textarea class="form-control" id="tempat_tanggal_lahir" rows="3" placeholder="Enter Tempat_tanggal_lahir" name="tempat_tanggal_lahir"></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="jurusan" class="form-label">Jurusan</label>
                     <textarea class="form-control" id="jurusan" placeholder="Enter jurusan" name="jurusan"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="alamat" class="form-label">Address</label>
+                    <textarea class="form-control" id="alamat" rows="3" placeholder="Enter Address" name="alamat"></textarea>
                 </div>
                 <button class="btn btn-primary" type="submit">Tambah Data</button>
             </form>

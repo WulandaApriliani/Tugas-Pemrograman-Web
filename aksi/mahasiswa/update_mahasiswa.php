@@ -8,7 +8,7 @@ $nama_lengkap = $_POST['nama_lengkap'];
 $email = $_POST['email'];
 $alamat = $_POST['alamat'];
 $jurusan = $_POST['jurusan'];
-$nidn = $_POST['npm'];
+$npm = $_POST['npm'];
 $jenis_kelamin = $_POST['jenis_kelamin'];
 $no_hp = $_POST['no_hp'];
 
