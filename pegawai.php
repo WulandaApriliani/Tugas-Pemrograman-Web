@@ -74,7 +74,7 @@ if (!isset($_SESSION['username'])) {
         </ul>
       </div>
       <div class="col-md-10 p-5 pt-5">
-        <h3><i class="fas fa-chalkboard-teacher"></i> DAFTAR PEGAWAi</h3>
+        <h3><i class="fas fa-chalkboard-teacher"></i> DAFTAR PEGAWAI</h3>
         <hr>
 
         <a href="tambah-pegawai.php" class="btn btn-primary mb-3"><i class="fas fa-plus-square mr-2"></i>TAMBAH DATA PEGAWAI</a>
